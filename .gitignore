@@ -1,0 +1,15 @@
+# Do not publish local secrets or source-code checkouts.
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.pfx
+*.p12
+*.sqlite
+*.db
+node_modules/
+.git/
+__pycache__/
+.DS_Store
+Thumbs.db
